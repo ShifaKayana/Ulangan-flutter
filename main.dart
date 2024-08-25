@@ -26,7 +26,6 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
     setState(() {
       if (text == 'C') {
         display = '0';
-        num1 = 0;
         operator = '';
       } else if (text == '+' || text == '-' || text == '*' || text == '/') {
         num1 = double.parse(display);
